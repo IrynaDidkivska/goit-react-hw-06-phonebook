@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React from 'react';
 import { Input, LabelFilter } from './Filter.styled';
 import { useDispatch } from 'react-redux';
 import { filterContact } from 'redux/contactsSlice/contactsSlice';
