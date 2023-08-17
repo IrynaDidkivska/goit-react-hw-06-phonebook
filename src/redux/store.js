@@ -16,6 +16,7 @@ const persistConfig = {
   key: 'root',
   version: 1,
   storage,
+  blacklist: ['filterValue'],
 };
 // створюємо змінну, яка буде зберігати в локалсторедж і передаємо в неї contactReducer(змінна з слайсу)
 const persistedReducer = persistReducer(persistConfig, contactReducer);
